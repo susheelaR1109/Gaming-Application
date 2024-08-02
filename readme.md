@@ -19,7 +19,8 @@ python manage.py startapp game
 
 ## Creating the Vue app
 ##### To create the vue app, u need to be in the parent folder and not inside django folder that was created
-npm create vue@latest
+npm install -g @vue/cli
+vue create app_name
 
 cd project_name
 npm install
