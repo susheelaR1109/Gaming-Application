@@ -17,3 +17,10 @@ python manage.py runserver
 ##### To create your app, make sure you’re in the same directory as manage.py and type this command:
 python manage.py startapp game
 
+## Creating the Vue app
+##### To create the vue app, u need to be in the parent folder and not inside django folder that was created
+npm create vue@latest
+
+cd project_name
+npm install
+npm run dev
