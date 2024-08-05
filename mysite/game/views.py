@@ -1,7 +1,11 @@
 from django.shortcuts import render, HttpResponse
 from django.http import JsonResponse
+from django.views.generic import TemplateView
 import random
 
+class HomeView(TemplateView):
+    template_name = "home.html"
+    
 # Create your views here.
 def home(request):
     return HttpResponse("Hello, world. You're at the uno home page.")
