@@ -24,4 +24,4 @@ vue create app_name
 
 cd project_name
 npm install
-npm run dev
+npm run serve
